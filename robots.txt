@@ -1,0 +1,21 @@
+User-agent: *
+Allow: /
+Disallow: /tools/
+Disallow: /data/
+Clean-param: utm_source&utm_medium&utm_campaign&utm_content&utm_term&yclid&gclid
+
+# AI- и ответные поисковики (GEO): разрешаем, чтобы магазин попадал в ответы нейросетей
+User-agent: GPTBot
+Allow: /
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: YandexAdditional
+Allow: /
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: https://enduro-store-pavlovsk.ru/sitemap.xml
